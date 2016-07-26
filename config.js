@@ -5,12 +5,16 @@ define( function ( require ) {
 	return {
 		app_slug : 'previous-magazine-android',
 		wp_ws_url : 'https://www.previousmagazine.com/wp-appkit-api/previous-magazine-android',
-		theme : 'wpak-tabs-android',
+		wp_url : 'https://www.previousmagazine.com',
+		theme : 'q-android',
 		version : '2.0',
 		app_title : 'Previous Magazine',
+		app_platform : 'android',
+		gmt_offset : 0,
 		debug_mode : 'off',
-		auth_key : '[.mMbDE.+sL/aDAX,j<HQFvI}tgIAM9X%j!|=BnrS4Uy0[UqH[|fKCqcA]!{8S|d',
+		auth_key : 'J=Fn6B89;A6H5.9{0twf}5~;YiZY|^ml7xf/){3*Zdr8Z;@XNz0QFIYcPRV|i,zs',
 		options : {"refresh_interval":0},
+		theme_settings : [],
 		addons : []
 	};
 
